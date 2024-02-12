@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!-- Tag de responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Seja bem-vindo!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Cadastro</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Cadastre-se</h1>
+                <p>Venha fazer parte desse projeto</p>
+                <form method="post" action="processar_formulario.php">
+                    <div class="box-input">
+                        <label for="Email">Digite seu email:</label>
+                        <input type="Email" 
+                               name="Email" 
+                               id="Email" 
+                               placeholder="Email"  
+                               required>
+                        
+                        <label for="name">Digite seu nome:</label>
+                        <input type="name" 
+                               name="name" 
+                               id="name" 
+                               placeholder="nome"  
+                               required>
+                    </div>
+                    <input type="submit" 
+                           value="Cadastrar-se" 
+                           class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
